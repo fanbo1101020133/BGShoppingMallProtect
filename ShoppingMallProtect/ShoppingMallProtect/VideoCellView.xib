@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="VideoCellView" customModule="ShoppingMallProtect">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Qz-4k-JWz" customClass="VideoCellView" customModule="ShoppingMallProtect">
+                    <rect key="frame" x="16" y="26" width="343" height="114"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIM-4L-xz1">
+                            <rect key="frame" x="147" y="32" width="49" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="49" id="OsM-gG-mf3"/>
+                                <constraint firstAttribute="height" constant="50" id="mgP-YH-2zT"/>
+                            </constraints>
+                            <state key="normal" title="Button" image="聚焦化学-首页、新闻等640-1136-63"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.17923052580000001" green="1" blue="0.085798850979999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="sIM-4L-xz1" firstAttribute="centerX" secondItem="3Qz-4k-JWz" secondAttribute="centerX" id="fkX-YX-nsQ"/>
+                        <constraint firstItem="sIM-4L-xz1" firstAttribute="centerY" secondItem="3Qz-4k-JWz" secondAttribute="centerY" id="w7M-lg-lDW"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="视频专区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dE5-Cz-gel" customClass="视频">
+                    <rect key="frame" x="16" y="0.0" width="122" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="4fY-Dy-3jM"/>
+                        <constraint firstAttribute="width" constant="122" id="BGv-5q-Q5m"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.41736007503474837" green="1" blue="0.92556281843091692" alpha="0.25737235915492956" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3Qz-4k-JWz" secondAttribute="trailing" constant="16" id="4Pu-Hm-cvI"/>
+                <constraint firstItem="dE5-Cz-gel" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="DpA-y0-Eeo"/>
+                <constraint firstAttribute="bottom" secondItem="3Qz-4k-JWz" secondAttribute="bottom" constant="10" id="H5h-dg-t5r"/>
+                <constraint firstItem="3Qz-4k-JWz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="26" id="oba-o0-7GA"/>
+                <constraint firstItem="dE5-Cz-gel" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="r7e-ss-cS0"/>
+                <constraint firstItem="3Qz-4k-JWz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="xVN-98-5N9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="82" y="-243"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="聚焦化学-首页、新闻等640-1136-63" width="336" height="337"/>
+    </resources>
+</document>

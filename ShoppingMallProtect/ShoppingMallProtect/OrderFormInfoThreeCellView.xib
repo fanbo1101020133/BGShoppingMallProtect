@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="OrderFormInfoThreeCellView" customModule="ShoppingMallProtect">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="85"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="聚焦化学-首页、新闻等640-1136-15" translatesAutoresizingMaskIntoConstraints="NO" id="CYG-GJ-T2M">
+                    <rect key="frame" x="16" y="22.5" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="HVa-lP-OsF"/>
+                        <constraint firstAttribute="width" constant="40" id="cgZ-oc-40l"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收货人：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9at-gI-V0a">
+                    <rect key="frame" x="64" y="8" width="56" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="56" id="Csg-Rk-TG9"/>
+                        <constraint firstAttribute="height" constant="18" id="lIH-Kq-PRr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电话：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWI-lh-Fs4">
+                    <rect key="frame" x="64" y="33" width="56" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="QIJ-3N-eKF"/>
+                        <constraint firstAttribute="width" constant="56" id="yvM-vA-f6w"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收货地址：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lil-Vu-BOZ">
+                    <rect key="frame" x="64" y="59" width="63" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="awQ-CP-bRT"/>
+                        <constraint firstAttribute="width" constant="63" id="q8j-6G-1qg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="张某某" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHY-pO-3do">
+                    <rect key="frame" x="128" y="8" width="231" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="231" id="QIb-0t-uEf"/>
+                        <constraint firstAttribute="height" constant="18" id="QlK-Lm-1Bb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13243209876" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEY-Z1-XbV">
+                    <rect key="frame" x="128" y="34" width="231" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="Dzb-EA-16R"/>
+                        <constraint firstAttribute="width" constant="231" id="leR-l7-oWg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上海市杨浦区武将场镇波斯得等大厦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsy-le-MvH">
+                    <rect key="frame" x="128" y="56" width="231" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="axR-9U-qAj"/>
+                        <constraint firstAttribute="width" constant="231" id="klG-wh-a6y"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="zWI-lh-Fs4" firstAttribute="leading" secondItem="CYG-GJ-T2M" secondAttribute="trailing" constant="8" id="1xe-ZS-210"/>
+                <constraint firstItem="aEY-Z1-XbV" firstAttribute="top" secondItem="JHY-pO-3do" secondAttribute="bottom" constant="8" id="6Cq-Hf-tee"/>
+                <constraint firstItem="CYG-GJ-T2M" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="A77-CT-HQb"/>
+                <constraint firstItem="tsy-le-MvH" firstAttribute="leading" secondItem="Lil-Vu-BOZ" secondAttribute="trailing" constant="1" id="ACT-qf-Ncm"/>
+                <constraint firstItem="aEY-Z1-XbV" firstAttribute="leading" secondItem="zWI-lh-Fs4" secondAttribute="trailing" constant="8" id="AES-sC-vnp"/>
+                <constraint firstItem="9at-gI-V0a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="64" id="CeD-yc-vO9"/>
+                <constraint firstItem="Lil-Vu-BOZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="64" id="Lae-MJ-z5c"/>
+                <constraint firstItem="zWI-lh-Fs4" firstAttribute="top" secondItem="9at-gI-V0a" secondAttribute="bottom" constant="7" id="PEx-nx-q6K"/>
+                <constraint firstItem="tsy-le-MvH" firstAttribute="top" secondItem="aEY-Z1-XbV" secondAttribute="bottom" constant="4" id="QLG-eT-jeZ"/>
+                <constraint firstItem="9at-gI-V0a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="SUX-xD-4dH"/>
+                <constraint firstItem="Lil-Vu-BOZ" firstAttribute="top" secondItem="zWI-lh-Fs4" secondAttribute="bottom" constant="8" id="Uzj-kg-BLc"/>
+                <constraint firstItem="CYG-GJ-T2M" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Wmm-ct-HGJ"/>
+                <constraint firstItem="JHY-pO-3do" firstAttribute="leading" secondItem="9at-gI-V0a" secondAttribute="trailing" constant="8" id="Yu1-1a-0b8"/>
+                <constraint firstItem="JHY-pO-3do" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="ey6-b6-FaJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imgView" destination="CYG-GJ-T2M" id="qUr-BJ-xXv"/>
+                <outlet property="localNameLabel" destination="tsy-le-MvH" id="wY7-Rc-vVw"/>
+                <outlet property="nameLabel" destination="JHY-pO-3do" id="y1y-Rz-JjR"/>
+                <outlet property="phoneNumberLabel" destination="aEY-Z1-XbV" id="hhX-7X-f5x"/>
+            </connections>
+            <point key="canvasLocation" x="16" y="-451"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="聚焦化学-首页、新闻等640-1136-15" width="1874" height="2239"/>
+    </resources>
+</document>

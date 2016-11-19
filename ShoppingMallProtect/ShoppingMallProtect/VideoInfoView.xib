@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="VideoInfoView" customModule="ShoppingMallProtect">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="225"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="聚焦化学-首页、新闻等640-1136-16" translatesAutoresizingMaskIntoConstraints="NO" id="KRY-WK-bNO">
+                    <rect key="frame" x="16" y="0.0" width="343" height="159"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="159" id="m1P-rY-wtO"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGk-Yo-2af">
+                    <rect key="frame" x="162" y="54" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="0Yr-HC-P0R"/>
+                    </constraints>
+                    <state key="normal" image="聚焦化学-首页、新闻等640-1136-63"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新型电池纤维素隔离膜问世与社会科技" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTD-mp-ILa">
+                    <rect key="frame" x="16" y="159" width="343" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="FKU-hb-Xr8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="版主：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Pj-yd-6Kn">
+                    <rect key="frame" x="16" y="179" width="28" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="28" id="FER-JB-eRk"/>
+                        <constraint firstAttribute="height" constant="18" id="JnD-UU-682"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="杨某某  杨某某 范某某" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AXO-2m-YSK">
+                    <rect key="frame" x="43" y="179" width="316" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="gds-Rh-3tN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lFh-sa-6hL">
+                    <rect key="frame" x="16" y="205" width="343" height="5"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="5" id="JCT-5b-jJc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lFh-sa-6hL" secondAttribute="trailing" constant="16" id="Dk3-NX-TLc"/>
+                <constraint firstAttribute="bottom" secondItem="lFh-sa-6hL" secondAttribute="bottom" constant="15" id="EeV-iW-Oui"/>
+                <constraint firstAttribute="trailing" secondItem="KRY-WK-bNO" secondAttribute="trailing" constant="16" id="F9Z-kq-JzG"/>
+                <constraint firstItem="lFh-sa-6hL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="IeS-Lu-KF3"/>
+                <constraint firstAttribute="trailing" secondItem="AXO-2m-YSK" secondAttribute="trailing" constant="16" id="LHg-rA-yfV"/>
+                <constraint firstItem="uGk-Yo-2af" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="162" id="RjM-EW-6em"/>
+                <constraint firstItem="LTD-mp-ILa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Tzq-6P-iK9"/>
+                <constraint firstAttribute="trailing" secondItem="LTD-mp-ILa" secondAttribute="trailing" constant="16" id="UMA-bi-rcG"/>
+                <constraint firstAttribute="trailing" secondItem="uGk-Yo-2af" secondAttribute="trailing" constant="163" id="XKb-jY-S91"/>
+                <constraint firstItem="AXO-2m-YSK" firstAttribute="leading" secondItem="6Pj-yd-6Kn" secondAttribute="trailing" constant="-1" id="YIY-Ox-Q76"/>
+                <constraint firstItem="KRY-WK-bNO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ZVK-ir-ffL"/>
+                <constraint firstItem="AXO-2m-YSK" firstAttribute="top" secondItem="LTD-mp-ILa" secondAttribute="bottom" constant="2" id="gnM-ND-7vp"/>
+                <constraint firstItem="6Pj-yd-6Kn" firstAttribute="leading" secondItem="LTD-mp-ILa" secondAttribute="leading" id="gpU-Km-7Xw"/>
+                <constraint firstItem="6Pj-yd-6Kn" firstAttribute="top" secondItem="LTD-mp-ILa" secondAttribute="bottom" constant="2" id="gzZ-hZ-8Cc"/>
+                <constraint firstItem="LTD-mp-ILa" firstAttribute="top" secondItem="KRY-WK-bNO" secondAttribute="bottom" id="kHx-W8-63h"/>
+                <constraint firstItem="KRY-WK-bNO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="mls-Ym-g8a"/>
+                <constraint firstItem="uGk-Yo-2af" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="54" id="seA-qe-2VP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="peopleNameLabel" destination="AXO-2m-YSK" id="BNb-b8-kyB"/>
+                <outlet property="playerBtn" destination="uGk-Yo-2af" id="tuE-aM-F8a"/>
+                <outlet property="videoNameLabel" destination="LTD-mp-ILa" id="qhQ-y0-d0B"/>
+            </connections>
+            <point key="canvasLocation" x="123.5" y="-84.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="聚焦化学-首页、新闻等640-1136-16" width="2436" height="1182"/>
+        <image name="聚焦化学-首页、新闻等640-1136-63" width="336" height="337"/>
+    </resources>
+</document>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NewInfoHeaderCellView" customModule="ShoppingMallProtect">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="509"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中科院副院长赵胜轩因违纪被责令辞职" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pej-y4-yiv">
+                    <rect key="frame" x="18" y="0.0" width="345" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OzD-Ie-1eI">
+                    <rect key="frame" x="67" y="70" width="240" height="14"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x10-o2-IZ5">
+                    <rect key="frame" x="18" y="41" width="341" height="2"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="0mD-L5-Hac"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMu-13-d0O">
+                    <rect key="frame" x="16" y="56" width="347" height="130"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="130" id="nOZ-tT-AXv"/>
+                    </constraints>
+                    <mutableString key="text">当时法国代购副书记；技术的广泛；了解公司的；分离技术；独立精神；独立精神；到了飞机公司的福利；看见告诉对方 更是劳动节；觉得分公司；龙卷风时光倒流；加过了；是见风使舵；管理局；风更是劳动节；高富帅的理解；公司福利大家；公司里的风景；受够了飞机上广泛的理解更舒服；廉洁奉公说；的理解更舒服；的理解割发代首理解规范；两国司法鉴定；反攻倒算两件事；广泛的理解更舒服；的理解更发生的；理解规范的；理解割发代首；卢浮宫集散地；龙肝凤髓大家；龙肝凤胆会计师；反过来说党纪国法；说的理解更；法律是大家看广泛；山东廉洁奉公说的；链接看更发生了；感觉开发商；两个副教授；少林功夫简单；辜负了说党纪国法；sldjkn.bngf；两年</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="聚焦化学-首页、新闻等640-1136-14" translatesAutoresizingMaskIntoConstraints="NO" id="YFX-4S-vc3">
+                    <rect key="frame" x="16" y="188" width="347" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="Vil-uq-UOX"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1h-Da-Anr">
+                    <rect key="frame" x="18" y="324" width="343" height="131.5"/>
+                    <mutableString key="text">当时法国代购副书记；技术的广泛；了解公司的；分离技术；独立精神；独立精神；到了飞机公司的福利；看见告诉对方 更是劳动节；觉得分公司；龙卷风时光倒流；加过了；是见风使舵；管理局；风更是劳动节；高富帅的理解；公司福利大家；公司里的风景；受够了飞机上广泛的理解更舒服；廉洁奉公说；的理解更舒服；的理解割发代首理解规范；两国司法鉴定；反攻倒算两件事；广泛的理解更舒服；的理解更发生的；理解规范的；理解割发代首；卢浮宫集散地；龙肝凤髓大家；龙肝凤胆会计师；反过来说党纪国法；说的理解更；法律是大家看广泛；山东廉洁奉公说的；链接看更发生了；感觉开发商；两个副教授；少林功夫简单；辜负了说党纪国法；sldjkn.bngf；两年</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="YFX-4S-vc3" firstAttribute="top" secondItem="lMu-13-d0O" secondAttribute="bottom" constant="2" id="2uG-yO-Xr4"/>
+                <constraint firstItem="pej-y4-yiv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="5BX-qg-yZR"/>
+                <constraint firstAttribute="trailing" secondItem="x10-o2-IZ5" secondAttribute="trailing" constant="20" id="5Di-ZC-Ubb"/>
+                <constraint firstItem="x10-o2-IZ5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="7Zy-A3-Vis"/>
+                <constraint firstItem="lMu-13-d0O" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="CWP-Ov-ia8"/>
+                <constraint firstAttribute="trailing" secondItem="YFX-4S-vc3" secondAttribute="trailing" constant="16" id="DWE-tz-BQK"/>
+                <constraint firstItem="E1h-Da-Anr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="JCh-he-KiF"/>
+                <constraint firstItem="YFX-4S-vc3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="QbW-8g-5IE"/>
+                <constraint firstItem="YFX-4S-vc3" firstAttribute="top" secondItem="lMu-13-d0O" secondAttribute="bottom" constant="2" id="S31-PZ-fWe"/>
+                <constraint firstItem="lMu-13-d0O" firstAttribute="top" secondItem="x10-o2-IZ5" secondAttribute="bottom" constant="13" id="as3-bD-bSV"/>
+                <constraint firstAttribute="trailing" secondItem="lMu-13-d0O" secondAttribute="trailing" constant="16" id="iqt-ii-g52"/>
+                <constraint firstItem="E1h-Da-Anr" firstAttribute="top" secondItem="YFX-4S-vc3" secondAttribute="bottom" constant="8" id="kdB-5x-BQ5"/>
+                <constraint firstAttribute="trailing" secondItem="pej-y4-yiv" secondAttribute="trailing" constant="16" id="n1Z-EF-0Mx"/>
+                <constraint firstItem="pej-y4-yiv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="oGD-De-e87"/>
+                <constraint firstAttribute="trailing" secondItem="E1h-Da-Anr" secondAttribute="trailing" constant="18" id="tED-Ve-vWP"/>
+                <constraint firstAttribute="bottom" secondItem="E1h-Da-Anr" secondAttribute="bottom" constant="53.5" id="uVs-fj-yQK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="68.5" y="288.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="聚焦化学-首页、新闻等640-1136-14" width="2670" height="803"/>
+    </resources>
+</document>

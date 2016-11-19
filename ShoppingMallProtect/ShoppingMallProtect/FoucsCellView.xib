@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FoucsCellView" customModule="ShoppingMallProtect">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="聚焦化学-首页、新闻等640-1136-13" translatesAutoresizingMaskIntoConstraints="NO" id="hLr-QJ-gfP">
+                    <rect key="frame" x="330" y="7" width="37" height="35"/>
+                    <color key="backgroundColor" red="0.17923052580000001" green="1" blue="0.085798850979999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="37" id="LSU-AU-FPo"/>
+                        <constraint firstAttribute="height" constant="35" id="iUQ-J8-Die"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   企业历程" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2a-m2-I1f">
+                    <rect key="frame" x="0.0" y="13.5" width="328" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="328" id="7Fk-Xb-UMA"/>
+                        <constraint firstAttribute="height" constant="21" id="xR5-iS-Q8Z"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hLr-QJ-gfP" secondAttribute="trailing" constant="8" id="F9A-wi-Du0"/>
+                <constraint firstItem="N2a-m2-I1f" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Gjz-p2-TO6"/>
+                <constraint firstItem="N2a-m2-I1f" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="LwD-a5-9CE"/>
+                <constraint firstItem="hLr-QJ-gfP" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="1" id="f9C-2W-ubr"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="leftLabel" destination="N2a-m2-I1f" id="DJw-E9-6jb"/>
+                <outlet property="rightImageView" destination="hLr-QJ-gfP" id="PAO-oW-UhI"/>
+            </connections>
+            <point key="canvasLocation" x="-116" y="-256"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="聚焦化学-首页、新闻等640-1136-13" width="2670" height="1046"/>
+    </resources>
+</document>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="p0M-nk-sPB" customClass="ShoppingCarSecCellView" customModule="ShoppingMallProtect">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="聚焦化学-首页、新闻等640-1136-62" translatesAutoresizingMaskIntoConstraints="NO" id="NZ0-1B-Hpf">
+                    <rect key="frame" x="16" y="7" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="SHN-Zy-qTQ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V13-fb-lMp">
+                    <rect key="frame" x="140" y="25" width="81" height="30"/>
+                    <color key="backgroundColor" red="0.058614640491871706" green="0.23088048947420592" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="81" id="ojJ-6x-yXx"/>
+                        <constraint firstAttribute="height" constant="30" id="tCB-Hr-Uid"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GsM-mx-xhG">
+                    <rect key="frame" x="110" y="25" width="30" height="30"/>
+                    <color key="backgroundColor" red="0.14935909059999999" green="0.38757572420000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="gjY-sL-gmK"/>
+                        <constraint firstAttribute="height" constant="30" id="yeN-ew-DfS"/>
+                    </constraints>
+                    <state key="normal" title="-">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THd-Yw-gSf">
+                    <rect key="frame" x="221" y="25" width="30" height="30"/>
+                    <color key="backgroundColor" red="0.14935909059999999" green="0.38757572420000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="pBY-7T-GYg"/>
+                        <constraint firstAttribute="width" constant="30" id="uxO-89-v41"/>
+                    </constraints>
+                    <state key="normal" title="+">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="V13-fb-lMp" firstAttribute="centerY" secondItem="p0M-nk-sPB" secondAttribute="centerY" constant="2.5" id="NWh-6f-U5b"/>
+                <constraint firstItem="V13-fb-lMp" firstAttribute="leading" secondItem="GsM-mx-xhG" secondAttribute="trailing" id="RjM-K6-HLz"/>
+                <constraint firstItem="NZ0-1B-Hpf" firstAttribute="top" secondItem="p0M-nk-sPB" secondAttribute="top" constant="7" id="Uqh-Xk-xEg"/>
+                <constraint firstItem="NZ0-1B-Hpf" firstAttribute="leading" secondItem="p0M-nk-sPB" secondAttribute="leading" constant="16" id="XZO-HX-Fsc"/>
+                <constraint firstItem="THd-Yw-gSf" firstAttribute="centerY" secondItem="p0M-nk-sPB" secondAttribute="centerY" constant="2.5" id="axt-ny-0kb"/>
+                <constraint firstItem="THd-Yw-gSf" firstAttribute="leading" secondItem="V13-fb-lMp" secondAttribute="trailing" id="eCr-1y-rea"/>
+                <constraint firstItem="GsM-mx-xhG" firstAttribute="leading" secondItem="NZ0-1B-Hpf" secondAttribute="trailing" constant="34" id="eMt-az-sjC"/>
+                <constraint firstAttribute="bottom" secondItem="NZ0-1B-Hpf" secondAttribute="bottom" constant="8" id="fY4-KF-JE2"/>
+                <constraint firstItem="GsM-mx-xhG" firstAttribute="centerY" secondItem="p0M-nk-sPB" secondAttribute="centerY" constant="2.5" id="lvg-PO-cyQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imgView" destination="NZ0-1B-Hpf" id="80c-Y1-1p2"/>
+                <outlet property="increaseBtn" destination="THd-Yw-gSf" id="T3J-UG-A49"/>
+                <outlet property="numberLabel" destination="V13-fb-lMp" id="rbn-wI-zal"/>
+                <outlet property="reduceBrn" destination="GsM-mx-xhG" id="DH8-72-TUG"/>
+            </connections>
+            <point key="canvasLocation" x="193" y="-86"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="聚焦化学-首页、新闻等640-1136-62" width="621" height="673"/>
+    </resources>
+</document>
